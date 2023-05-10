@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ 
+ <link href="styles.css" rel="stylesheet"/>
+ <meta charset="utf-8">
+ <meta name=viewport content="width=device-width, 
+ initial-scale=1">
+ <meta name="description" content="Citrus Café restaurant">
+ <title>Citrus Cafe</title>
+ <link rel="stylesheet" href="styles.css">
+
+ 
+ 
+ 
+ </head>
+ 
+
+ <body>
+ 
+ <div id="myPage">
+ 
+ <header> 
+<img src="images/logo.png" alt="Citrus Café Logo" width="296" height="101">
+<h1>Citrus Cafe</h1>
+<h2>Sustainable, organic and natural</h2>
+
+<p> "A <strong>vibrant</strong> neighbourhood 
+kitchen utilising our philosophy of purchasing <em>local, organic, and sustainable</em> 
+ingredients</p>
+
+ </header>
+ 
+ <nav>
+ <ul>
+ <li><a href="home.html">Home</a></li>
+ <li><a href="#">Menus</a></li>
+ <li><a href="reservations.html">Reservations</a></li>
+ <li><a href="#">Booking</a></li>
+ <li><a href="#">Contact</a></li>
+ </ul>
+ </nav> 
+ 
+ <main> 
+ <article><header> 
+ 
+  <h2>About Us</h2>
+ <section><h3>The Suite</h3>
+<img src="images/events.jpg" alt=" Photo of the new Britannia Suite " width="255" height="153">
+<p>"We can hold events of all sizes in our dedicated Britannia Suite.</p>
+<p>The top 5 additions to the suite are:</p>
+<ol type="i">
+<li> Projector</li>
+<li>Whiteboard</li>
+<li>Wifi</li>
+<li>Coffee and tea</li>
+</ol>
+
+</section>
+ 
+ <section>
+ <h3>Restaurant</h3>
+ <p>Our restaurant was purpose-built in 2002 but with all the open 
+fires, secluded dining areas and delicious pub food favourites of a country pub 
+restaurant, we offer a warm welcome to guests who can enjoy al fresco dining on 
+the patio and attractive gardens in summer or relax by a cosy fire.</p>
+ </section>
+ 
+  </header></article>
+ 
+ <article><header id="specialheader"><h2>Today's Specials </h2> <br>
+ <img src="images/lobster_small.jpg">
+<p>We have daily specials advertised via the web site. All you need to 
+do is quote today's code 'MYSPECIAL103489' when ordering the items on special 
+offer today</p>
+<p>Today's discount is 5% off the following."</p>
+<ul>
+<li>Baked Camembert</li>
+<li>Devilled Whitebait
+<ul>
+<li>Cooked in a crispy crumb</li>
+<li>Served with garlic mayonaise</li>
+</ul></li>
+<li>Columbian Chocolate Torte</li>
+<li>Salad Special</li>
+
+</ul>
+
+
+</header></article>
+ <article><header><h2> Recipe of the Day</h2>
+ <p>Ingredients for recipe: <span lang="fr-FR">Poulet basquaise</span></p>
+<ul> 
+ <li data-quantity="1kg" data-vegetable>Tomatoes</li> 
+ <li data-quantity="3" data-vegetable>Onions</li> 
+ <li data-quantity="3" data-vegetable>Garlic</li> 
+ <li data-quantity="700g" data-vegetable="not spicy like chili">Red 
+pepper</li> 
+ <li data-quantity="2kg" data-meat>Chicken</li> 
+ <li data-quantity="optional 150g" data-meat>Bacon bits</li> 
+ <li data-quantity="optional 10ml" data-vegetable="liquid">Olive oil</li> 
+ <li data-quantity="25cl" data-vegetable="liquid">White wine</li> 
+</ul>
+ 
+ </header></article>
+ 
+ 
+ <article><header><h2> Latest News</h2>
+ 
+ <nav id=latestnewsNav>
+ <ul>
+ <li><a href="#">Booking for 'Celebrity Guest Chef Night' now on</a></li>
+ <li><a href="#">Sign up for our reward card</a></li>
+ <li><a href="#">Buy a gift card for a loved one</a></li>
+ <li><a href="#">Free starter or pudding if you book online</a></li>
+ <li><a href="#">Tell us about your visit</a></li>
+ <li><a href="#">Cat themed party Special Night on 1st August 2020 </a></li>
+ </ul>
+ </nav>
+ 
+ 
+ </header></article>
+ </main>
+ 
+ <script>
+ //let num1=prompt("Enter number 1 : ");
+ //let num2=prompt("Enter number 2 : ");
+ //let total = (num1)/(num2);
+ //alert(num1+ "/" + num2 + "="+ total); 
+ //document.write("My first  JV script page");
+ 
+ /*let mark=prompt("Enter Mark : ");
+ let grade1;
+ if((mark>=80)&&(mark<=100))
+ {grade1 = 'A';
+ }
+ else if((mark>=70)&&(mark<80))
+ {grade1 = 'B';
+ }
+ else if((mark>=60)&&(mark<70))
+ {grade1 = 'C';
+ }
+  else if((mark>=50)&&(mark<60))
+ {grade1 = 'D';
+ }
+ else if((mark>=0)&&(mark<50))
+ {grade1 = 'F';
+ }
+ else{
+ grade1="Invalid";
+ }
+ alert("The Grade is : " + grade1); */
+
+let grade=prompt("Enter your Grade : ");
+let mark_r;
+switch(grade)
+{
+case 'A' : 
+case 'a' :
+{mark_r= "100 to 80";
+break;}
+case 'B' :
+case 'b' : 
+{mark_r= "79 to 70";
+break;}
+case 'C' :
+case 'c' : 
+{mark_r= "69 to 60";
+break;}
+case 'D' : 
+case 'd' :
+{mark_r= "59 to 50";
+break;}
+case 'F' :
+case 'f' : 
+{mark_r= "0 to 49";
+break;}
+default :
+{mark_r="Invalid Grade";
+}
+}
+alert("The Mark Range for Grade \" " +grade+  " \" is : " + mark_r);
+
+
+
+ 
+ 
+ </script>
+ 
+ 
+ 
+ <script>
+ document.write("My second  JV script part");
+ </script>
+ 
+ <footer>
+ &copy; Citrus Cafe 2014. Telephone Number 123-555-123
+ </footer>
+ 
+
+ 
+ </div>
+ 
+ </body>
+</html>
